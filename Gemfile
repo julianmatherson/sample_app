@@ -5,6 +5,9 @@ ruby '3.0.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4'
+gem 'image_processing',           '1.9.3'
+gem 'mini_magick', '4.9.5'
+gem 'active_storage_validations', '0.8.9'
 gem 'bcrypt',         '3.1.13'
 gem 'faker',          '2.11.0'
 gem 'will_paginate',  '3.3.0'
@@ -12,6 +15,7 @@ gem 'bootstrap-will_paginate', '1.0.0'
 # Use postgresql as the database for Active Record
 gem 'bootstrap-sass', '3.4.1'
 gem 'pg', '~> 1.1'
+gem 'aws-sdk-s3', '1.87.0', require: false
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
